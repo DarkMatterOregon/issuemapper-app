@@ -6,12 +6,11 @@ const styles = {
         height: 80
     },
     text: {
+        fontSize: 12,
         flex: 1
-        // height: 80
     },
     input: {
         flex: 1,
-        // height: 80,
         borderColor: "#808080",
         borderWidth: 1,
         borderRadius: 10,

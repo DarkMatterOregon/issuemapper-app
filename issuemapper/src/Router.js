@@ -12,7 +12,7 @@ class RouterComponent extends Component {
         return (
             <Router onStateChange={this.stateHandler}>
                 <Stack key="main">
-                    <Scene key="login" component={LoginView} title="Login" />
+                    <Scene key="login" component={LoginView} title="Login" initial />
                     <Scene key="home" component={HomeView} title="Home" />
                 </Stack>
             </Router>
